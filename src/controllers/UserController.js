@@ -1,5 +1,6 @@
 let users = require('../mocks/users');
 
+// regras de negócio
 module.exports = {
   listUsers(request, response){
     const {order} = request.query;
